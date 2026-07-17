@@ -1,13 +1,22 @@
+
 const Course1 = "HTML"
 function Course() 
 {
+  const styles = {
+       
+          backgroundColor: '#fcdb5786',
+        
+      }
+    
   return (
-    <div>
-        <image src="https://www.w3schools.com/html/pic_html.jpg" alt="HTML" />
-      <h2>HTML</h2>
-      <h3>{Course1}</h3>
-      <p>Course description goes here.</p>
-    </div>
-  )
+    <div style={styles}>
+       <div className=" center-text">
+  <h2>Product Title</h2>
+  <p>This is the product description text.</p>
+  <button>Buy Now</button>
+</div>
+</div>
+
+  );
 }
 export default Course
